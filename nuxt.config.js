@@ -17,12 +17,12 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          "Hi, I'm Isaac Anane Amankwaah. I am a Fullstack Developer and an inspirational mentor with over 5 years of experience in software development.",
+          `Fullstack Developer and an inspirational mentor with over ${new Date().getFullYear() - 2018} years of experience in software development.`,
       },
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'robots', content: 'index, follow' },
       { name: 'author', content: 'Isaac Anane Amankwaah' },
-      { property: 'og:url', content: 'https://www.isaacanane.com' },
+      { property: 'og:url', content: 'https://isaacanane.vercel.app' },
       { name: 'og:type', content: 'website' },
       {
         name: 'og:title',
@@ -30,7 +30,7 @@ export default {
       },
       {
         name: 'og:image',
-        content: 'https://isaacanane.com',
+        content: 'https://isaacanane.vercel.app',
       },
       {
         name: 'og:descripition',
@@ -43,11 +43,11 @@ export default {
       },
       {
         name: 'twitter:domain',
-        content: 'https://isaacanane.com'
+        content: 'https://isaacanane.vercel.app'
       },
       {
         name: 'twitter:url',
-        content: 'https://isaacanane.com'
+        content: 'https://isaacanane.vercel.app'
       },
       {
         name: 'twitter:title',
@@ -55,7 +55,7 @@ export default {
       },
       {
         name: 'twitter:image',
-        content: 'https://isaacanane.com',
+        content: 'https://isaacanane.vercel.app/___a.jpeg',
       },
       {
         name: 'twitter:descripition',
@@ -65,9 +65,8 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'canonical',  href: 'https://isaacanane.com' },
-      { rel: 'apple-touch-icon', size: '180x180',  href: 'https://isaacanane.com' },
-      { rel: 'canonical',  href: 'https://isaacanane.com' },
+      { rel: 'apple-touch-icon', size: '180x180',  href: 'https://isaacanane.vercel.app' },
+      { rel: 'canonical',  href: 'https://isaacanane.vercel.app' },
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       {
@@ -107,12 +106,14 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+    '@nuxtjs/google-analytics'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
+    '@nuxtjs/google-analytics'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -122,4 +123,12 @@ export default {
     EMAIL_SERVICE: process.env.EMAIL_SERVICE,
     EMAIL_TEMPLATE: process.env.EMAIL_TEMPLATE,
   },
+  googleAnalytics: {
+    id: process.env.GOOGLE_ANALYTICS_ID,
+  },
+  publicRuntimeConfig: {
+    googleAnalytics: {
+      id: process.env.GOOGLE_ANALYTICS_ID
+    }
+  }
 }
