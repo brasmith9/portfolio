@@ -1,8 +1,5 @@
 <template>
   <div class="container">
-    <div class="alert alert-warning" role="alert">
-      Site is still under development! <i class="uil uil-warning"></i>
-    </div>
     <Navbar />
     <main class="main">
       <HeroSection />

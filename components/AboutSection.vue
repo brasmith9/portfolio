@@ -5,13 +5,13 @@
     <div class="row">
       <div class="col-md-6">
         <div class="img">
-          <img src="/___a.jpeg" alt="" />
+        <img src="/___a.jpeg" alt=""/>
         </div>
       </div>
       <div class="col-md-6">
         <div class="content">
           <p>
-            Fullstack Developer and an inspirational mentor with over 4
+            Fullstack Developer and an inspirational mentor with over {{experience}}
             years of experience in software development. Recognized for
             demonstrating strong analytical skills and proven software
             development skills. Expert in <code>console.log("JavaScript");<br> </code> <code>echo "PHP";</code> and <br>
@@ -54,7 +54,7 @@ export default {
   name: 'AboutSection',
   setup() {
     const compCount = data.companies.length
-    const experience = ref(Number(new Date().getFullYear()) - 2018)
+    const experience = ref(Number(new Date().getFullYear()) - 2017)
     return {
       experience,
       compCount

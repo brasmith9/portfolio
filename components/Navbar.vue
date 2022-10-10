@@ -1,7 +1,10 @@
 <template>
   <nav class="navbar navbar-light nav__bar">
     <a class="nav__logo" href="#"><span class="head_span">theFortunate</span>Developer.</a>
-    <ul class="nav">
+    <div class="humburger">
+      <img src="../static/menu.png" alt="" width="30">
+    </div>
+    <ul class="nav nav-bar">
       <li class="nav-item">
         <a href="#" class="nav-link active">Home</a>
       </li>

@@ -236,8 +236,6 @@ a {
   padding: 0;
   padding-right: 50%;
   animation: slide-up forwards 1s;
-
-
 }
 
 .hero_btn {
@@ -570,6 +568,44 @@ footer .bar .social__link:hover {
   }
   footer .bar .social {
     margin-top: 2rem;
+  }
+}
+.humburger {
+  display: none;
+}
+
+@media (max-width: 740px) {
+  .nav-bar {
+    display: none;
+  }
+  .humburger {
+    display: block;
+  }
+  .hero_h1 {
+    font-size: 3.5rem;
+    line-height: 3.4rem;
+    animation: slide-up forwards 1s;
+  }
+  .img {
+    overflow: hidden;
+  }
+  .hero__text {
+    font-size: 2.4;
+    margin-top: -3px;
+    padding: 0;
+    animation: slide-up forwards 1s;
+  }
+
+  .hero__subtitle {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3.4rem;
+    animation: slide-up forwards 1.5s;
+  
+  }
+
+  .illustration{
+    display: none;
   }
 }
 

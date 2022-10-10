@@ -38,7 +38,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 illustration">
           <div class="cube__wrapper">
             <svg viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <mask id="mask0" mask-type="alpha">

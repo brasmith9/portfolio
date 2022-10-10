@@ -16,21 +16,27 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content:
-          `Fullstack Developer and an inspirational mentor with over ${new Date().getFullYear() - 2018} years of experience in software development.`,
+        content: `Fullstack Developer and an inspirational mentor with over ${
+          new Date().getFullYear() - 2017
+        } years of experience in software development.`,
       },
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'robots', content: 'index, follow' },
       { name: 'author', content: 'Isaac Anane Amankwaah' },
-      { property: 'og:url', content: 'https://isaacanane.vercel.app' },
+      {
+        name: 'keywords',
+        content:
+          'Isaac Anane Amankwaah, Amankwa, Amankwah,Anane Isaac, Anane Isaac Amankwaah, Isaac Amankwaah Anane, Amankwaah Isaac, Amankwaah Anane Isaac, Isaac Anane, Isaac, Anane, Amankwaah, Fullstack Developer, Enyata, Perigee Insights, Creative Brainx Studio, Youtuber, Blogger, Designer, Interpay, Ghana, Enyata Ghana, Vanguard Life, Actuarial Science, Insurance, Mathematics, Statistics, Software, Engineer, Business, Supar Nana, Super Nana, Adam Smith, Economics, Mentorship, Coaching, Cheap services, Freelancing',
+      },
+      { property: 'og:url', content: 'https://isaacanane.com' },
       { name: 'og:type', content: 'website' },
       {
         name: 'og:title',
-        content: 'Isaac Anane Amankwaah—Fullstack + UI/UX Developer',
+        content: 'Isaac Anane Amankwaah — Fullstack + UI/UX Developer',
       },
       {
         name: 'og:image',
-        content: 'https://isaacanane.vercel.app',
+        content: 'https://isaacanane.com/___a.jpeg',
       },
       {
         name: 'og:descripition',
@@ -39,23 +45,23 @@ export default {
       },
       {
         name: 'twitter:card',
-        content: 'summary_large_image'
+        content: 'summary_large_image',
       },
       {
         name: 'twitter:domain',
-        content: 'https://isaacanane.vercel.app'
+        content: 'https://isaacanane.com',
       },
       {
         name: 'twitter:url',
-        content: 'https://isaacanane.vercel.app'
+        content: 'https://isaacanane.com',
       },
       {
         name: 'twitter:title',
-        content: 'Isaac Anane Amankwaah—Fullstack + UI/UX Developer',
+        content: 'Isaac Anane Amankwaah — Fullstack + UI/UX Developer',
       },
       {
         name: 'twitter:image',
-        content: 'https://isaacanane.vercel.app/___a.jpeg',
+        content: 'https://isaacanane.com/___a.jpeg',
       },
       {
         name: 'twitter:descripition',
@@ -65,8 +71,12 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'apple-touch-icon', size: '180x180',  href: 'https://isaacanane.vercel.app' },
-      { rel: 'canonical',  href: 'https://isaacanane.vercel.app' },
+      {
+        rel: 'apple-touch-icon',
+        size: '180x180',
+        href: 'https://isaacanane.com',
+      },
+      { rel: 'canonical', href: 'https://isaacanane.com' },
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       {
@@ -106,14 +116,14 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    '@nuxtjs/google-analytics'
+    '@nuxtjs/google-analytics',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
-    '@nuxtjs/google-analytics'
+    '@nuxtjs/google-analytics',
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -128,7 +138,7 @@ export default {
   },
   publicRuntimeConfig: {
     googleAnalytics: {
-      id: process.env.GOOGLE_ANALYTICS_ID
-    }
-  }
+      id: process.env.GOOGLE_ANALYTICS_ID,
+    },
+  },
 }
