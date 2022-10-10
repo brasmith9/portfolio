@@ -5,7 +5,7 @@
     <div class="row">
       <div class="col-md-6">
         <div class="img">
-        <img src="/___a.jpeg" alt=""/>
+        <img class="about_img" src="/___a.jpeg" alt=""/>
         </div>
       </div>
       <div class="col-md-6">

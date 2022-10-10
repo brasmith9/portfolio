@@ -16,11 +16,11 @@
           <label for="message">Message</label>
           <textarea id="message" v-model="formData.message" required></textarea>
         </section>
-        <section class="form-element">
-          <button title="Send Message" type="submit" class="btn btn--primary">
+        <div class="btn_grp form-group my-4 w-100">
+          <button title="Send Message" type="submit" class="btn btn--primary send--btn">
             Send
           </button>
-        </section>
+        </div>
       </form>
     </article>
   </section>

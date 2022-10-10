@@ -450,7 +450,26 @@ a {
 .btn--primary:hover img {
   animation: zoom 0.4s ease-in-out;
 }
+.btn_grp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 
+}
+.send--btn {
+  width: 100%;
+  align-self: center;
+  text-align: center;
+
+}
+
+.about_img {
+  filter: saturate(0);
+}
+.about_img:hover {
+  filter: grayscale(0);
+}
 
 .contact-me h2 {
   text-align: center;

@@ -6,13 +6,13 @@
       <div v-for="item in brandsData" :key="item.id" class="col-md-3 brand_logo_wrapper">
         <div class="brand_logo_wrapper mb-5">
           <img class="brand_logo my-auto" :src="item.logo" :alt="item.name">
-          <i class="uil uil-external-link-alt"></i>
+          <i class="uil uil-external-link-alt mx-3"></i>
         </div>
       </div>
       <div class="col-md-3 brand_logo_wrapper">
         <div class="brand_logo_wrapper">
-          <svg class="brand_logo ammiel" width="120" height="120" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <mask id="a" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="120" height="120">
+          <svg class="brand_logo ammiel" width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <mask id="a" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48">
               <path fill="#D9D9D9" d="M0 0h48v48H0z"></path>
             </mask>
             <g mask="url(#a)">

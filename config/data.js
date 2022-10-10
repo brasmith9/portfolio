@@ -20,7 +20,7 @@ export default {
     },
     {
       id: 3,
-      name: 'Ruk Finance Solutins Limited',
+      name: 'Ruk Finance Solutions Limited',
       url: 'https://www.rukfinance.io/',
       logo: 'http://rukfinance.io/images/logo-1.png'
     },
@@ -71,7 +71,7 @@ export default {
       ],
     },
     {
-      id: 1,
+      id: 2,
       stack: 'Backend Developer',
       skill: [
         {
@@ -97,7 +97,7 @@ export default {
       ],
     },
     {
-      id: 1,
+      id: 3,
       stack: 'UI/UX Designer',
       skill: [
         {
