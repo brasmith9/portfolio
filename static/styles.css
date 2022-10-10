@@ -110,7 +110,7 @@ a {
 }
 
 .img {
-  width: 100px;
+  width: 100%;
   height: 600px;
   overflow: hidden;
   display: flex;
@@ -331,10 +331,6 @@ a {
   position: absolute;
 
 }
-.about .img{
-  width: 550px;
-  
-}
 
 .about .content p {
   line-height: 1.6rem;
@@ -414,6 +410,27 @@ a {
   border: none !important;
   box-shadow: none !important;
   outline: none !important;
+}
+.brand_logo_wrapper {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brand_logo {
+  width: 100%;
+  filter: saturate(0);
+  align-self: center;
+  
+}
+
+
+.ammiel {
+
+}
+.brand_logo:hover {
+  filter: grayscale(0);
+  cursor: pointer;
 }
 
 .btn--primary {
