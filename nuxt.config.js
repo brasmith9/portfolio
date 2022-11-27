@@ -101,6 +101,11 @@ export default {
           'sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM',
         crossorigin: 'anonymous',
       },
+      {
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4261104315601863',
+        crossorigin: 'crossorigin',
+        async: true
+      }
     ],
   },
 

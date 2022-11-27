@@ -1,7 +1,7 @@
 <template>
   <section id="skills" class="skills section">
     <h1 class="section__title">Skills</h1>
-    <p class="section__subtitle">My Technologies</p>
+    <p class="section__subtitle">My Stack</p>
     <div class="row inner_skills">
       <div v-for="item in skillData" :key="item.id" class="col-md-6">
         <div class="skill">

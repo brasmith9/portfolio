@@ -68,6 +68,11 @@ export default {
           tool: 'CSS',
           percentage: 'Expert',
         },
+        {
+          id: 5,
+          tool: 'JavaScript',
+          percentage: 'Expert',
+        },
       ],
     },
     {
@@ -93,6 +98,11 @@ export default {
           id: 4,
           tool: 'JAVA',
           percentage: 'Expert',
+        },
+        {
+          id: 5,
+          tool: 'C#',
+          percentage: 'Advanced',
         },
       ],
     },

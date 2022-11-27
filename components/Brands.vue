@@ -3,15 +3,15 @@
     <h1 class="section__title">Brands</h1>
     <p class="section__subtitle">Brands I have worked with</p>
     <div class="row">
-      <div v-for="item in brandsData" :key="item.id" class="col-md-3 brand_logo_wrapper">
+      <div v-for="item in brandsData" :key="item.id" class="col-md-3 col-sm-6 brand_logo_wrapper">
         <div class="brand_logo_wrapper mb-5">
-          <img class="brand_logo my-auto" :src="item.logo" :alt="item.name">
-          <i class="uil uil-external-link-alt mx-3"></i>
+          <img class="brand_logo my-auto mr-2" :src="item.logo" :alt="item.name">
+          <i class="uil uil-external-link-alt"></i>
         </div>
       </div>
       <div class="col-md-3 brand_logo_wrapper">
         <div class="brand_logo_wrapper">
-          <svg class="brand_logo ammiel" width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg class="brand_logo ammiel mr-2" width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <mask id="a" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48">
               <path fill="#D9D9D9" d="M0 0h48v48H0z"></path>
             </mask>

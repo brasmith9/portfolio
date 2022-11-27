@@ -4,6 +4,7 @@
     <div class="humburger">
       <img src="../static/menu.png" alt="" width="30">
     </div>
+    <!--<NavDrawer/>-->
     <ul class="nav nav-bar">
       <li class="nav-item">
         <a href="#" class="nav-link active">Home</a>
@@ -20,7 +21,7 @@
       <li class="nav-item">
         <a href="#" class="nav-link">Blog</a>
       </li>
-      <li class="nav-item">
+      <li id="theme_mode" class="nav-item">
         <a href="#" class="nav-link"><i class="uil uil-moon"></i></a>
       </li>
     </ul>
@@ -29,8 +30,9 @@
 </template>
 
 <script>
+// import NavDrawer from './NavDrawer.vue';
 export default {
-  name: 'SiteNavbar'
-
+    name: "SiteNavbar",
+    components: {  }
 }
 </script>
